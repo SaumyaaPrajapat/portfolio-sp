@@ -4,7 +4,7 @@
   padding: 1px 0;
   display: flex;
   justify-content: center;
-  background-color: #252535;
+  background-color: #15151e;
 }
 @media (max-width: 960px) {
   .FooterContainer {
