@@ -144,6 +144,7 @@ export const experiences = [
       "Node.js",
       "Express.js",
     ],
+    doc: "https://media.licdn.com/dms/image/D4D2DAQGeqZzup8izfA/profile-treasury-image-shrink_800_800/0/1702548766332?e=1703689200&v=beta&t=D-eVKH16Un7W4YcTkWgbl3nw_6MQiMp3M6j_H8w29SU",
   },
   {
     id: 1,

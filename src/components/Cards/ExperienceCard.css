@@ -130,3 +130,16 @@
     font-size: 12px;
   }
 }
+
+.Document {
+  display: none;
+  height: 70px;
+  width: 70px;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.Document:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
