@@ -1,8 +1,8 @@
 export const Bio = {
   name: "Saumyaa Prajapat",
-  roles: ["Front-end Developer", "UI/UX Designer", "Programmer"],
+  roles: ["Full-stack Developer", "UI/UX Designer", "Programmer"],
   description:
-    "I am a highly motivated and results-oriented front-end developer and UI/UX designer with a passion for creating user-friendly and visually appealing digital experiences. Passionate about learning, I am committed to delivering high quality results.",
+    "I am a highly motivated and results-oriented full-stack developer and UI/UX designer with a passion for creating user-friendly and visually appealing digital experiences. Passionate about learning, I am committed to delivering high quality results.",
   github: "https://github.com/SaumyaaPrajapat",
   resume:
     "https://docs.google.com/document/d/1Gi5GQSnl2431_rj4nKP8LkgfAbJ0WaMtpORP_JcfOSk/edit?usp=sharing",
