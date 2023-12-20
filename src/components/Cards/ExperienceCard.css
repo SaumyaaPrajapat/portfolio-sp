@@ -1,0 +1,132 @@
+.ExpCard {
+  width: 650px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 12px 16px;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.3s ease-in-out;
+  border: 0.1px solid #306ee8;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+.ExpCard:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+@media (max-width: 768px) {
+  .ExpCard {
+    padding: 10px;
+    gap: 8px;
+    width: 300px;
+  }
+}
+.ExpCard:hover .Document {
+  display: flex;
+}
+.ExpCard:hover .span {
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+
+.ExpTop {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+
+.ExpImage {
+  height: 50px;
+  background-color: #000;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+@media (max-width: 768px) {
+  .ExpImage {
+    height: 40px;
+  }
+}
+
+.Body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Role {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(242, 243, 244, 0.99);
+}
+@media (max-width: 768px) {
+  .Role {
+    font-size: 14px;
+  }
+}
+
+.Company {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(177, 178, 179, 0.99);
+}
+@media (max-width: 768px) {
+  .Company {
+    font-size: 12px;
+  }
+}
+
+.Date {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(177, 178, 179, 0.8);
+}
+@media (max-width: 768px) {
+  .Date {
+    font-size: 10px;
+  }
+}
+
+.ExpDescription {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(242, 243, 244, 0.99);
+  margin-bottom: 10px;
+}
+
+.ExpDescription span {
+  overflow: hidden;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+
+.ExpSkills {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  margin-top: -10px;
+}
+
+.ItemWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ExpSkill {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(242, 243, 244, 0.9);
+}
+@media (max-width: 768px) {
+  .ExpSkill {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,163 @@
+.Nav {
+  background-color: #252535;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.NavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1200px; /* the overall max width for the whole site so that some gap is there in left and right corner*/
+}
+.NavLogo {
+  width: 80%;
+  padding: 0 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+.MobileIcon {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .MobileIcon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #f2f3f4;
+  }
+}
+.Logo {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sp {
+  width: 28px;
+  height: 28px;
+}
+.NavItems {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 6px;
+  list-style: none;
+}
+@media (max-width: 768px) {
+  .NavItems {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  .NavItems {
+    padding: 0 4px;
+  }
+}
+
+.NavLink {
+  color: #f2f3f4;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.NavLink:hover {
+  color: #4c8ae6;
+}
+.NavLink.active {
+  border-bottom: 2px solid #4c8ae6;
+}
+.ButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  height: 100%;
+  padding: 0 6px;
+}
+@media (max-width: 768px) {
+  .ButtonContainer {
+    display: none;
+  }
+}
+.GithubButton {
+  border: 1.8px solid #4c8ae6;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 70%;
+  border-radius: 20px;
+  color: #4c8ae6;
+  cursor: pointer;
+  padding: 0 20px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.GithubButton:hover {
+  background: #4c8ae6;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .GithubButton {
+    font-size: 13px;
+  }
+}
+
+.MobileMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 100%;
+  padding: 12px 40px 24px 40px;
+  background: rgba(37, 37, 53, 0.4); /*0.4 for transparency*/
+  transition: 0.3s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.MobileMenu.isOpen {
+  transform: translateY(0);
+  opacity: 100%;
+  z-index: 1000;
+}
+.MobileMenu:not(.isOpen) {
+  transform: translateY(-100%);
+  opacity: 0;
+  z-index: -1000;
+}
+.MobileLink {
+  color: #f2f3f4;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.MobileLink:hover {
+  color: #4c8ae6;
+}
+.MobileLink.active {
+  border-bottom: 2px solid #4c8ae6;
+}

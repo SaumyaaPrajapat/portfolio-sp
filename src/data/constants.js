@@ -2,12 +2,11 @@ export const Bio = {
   name: "Saumyaa Prajapat",
   roles: ["Front-end Developer", "UI/UX Designer", "Programmer"],
   description:
-    "I am a highly motivated and results-oriented front-end developer and UI/UX designer with a passion for creating user-friendly and visually appealing digital experiences. Passionate about learning, I am committed to delivering high quality results. With a positive attitude and  growth mindset, I am ready to make meaningful contributions and achieve great things.",
+    "I am a highly motivated and results-oriented front-end developer and UI/UX designer with a passion for creating user-friendly and visually appealing digital experiences. Passionate about learning, I am committed to delivering high quality results.",
   github: "https://github.com/SaumyaaPrajapat",
   resume:
     "https://docs.google.com/document/d/1Gi5GQSnl2431_rj4nKP8LkgfAbJ0WaMtpORP_JcfOSk/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/saumyaa-prajapat-42880b226/",
-  insta: "https://www.instagram.com/saumyaa_2034/",
 };
 
 export const skills = [
@@ -37,6 +36,26 @@ export const skills = [
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      },
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      {
+        name: "MongoDB",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADoElEQVR4Aa1XA5AlMRDtMtfe/TNrzPy1z7Zt21euY/ls+658VzrbxbNt23auX+Vvzf5VskjVq8mkO3mdTndA2sVlJ5CZ2o+i05aSYR/j/7tkul8DqKMNMuhAl2qsGKm5jA1kuO9TTJqgmHTBRIzUEpAy6ECXDVqPvlTlEpkTzLObTab9tYiU/3XgGGNaX/h/FkUmBVNlCncu4M6nKUbOtFwilw2UL0dfjGGmnKIYu0DT5VZ9crkfyBm4KyaPdgMVGwFgLIxppNdTr7dpP6YYhbujmDDcErSoDYA62lRGwBOPy4+LwARftvKccuYGIyBF0LD6gj4PB1BHG2RqIwz7LLioVEGw6ARasCWobaGgewMFfRkOoI42yNT9JcdM8irR6dns+m8VBhwAV1s8i6M9BP0cIejtUAB1tEEGHYUB4ACXlV3MAM5zpettQSHs5unNBX1nwncgl0AdbZBBB7oaS7G+KPDi2aKnSvdH8KAZmYLO9hH0bTiIvYA2yKADXfUy2E/ITIsjbJ1aax/EM5vYWNCnYYLeM+TMAdTRBhl0oKsZC1Y/4jxerpV2Lv5u7+q99q8Zr4Z4x8K2Lh59hQHgBDcZ9nGlB8IsQTlZ3u5/z3jA0X9rgOOR7yw72VtQZqY6GMGJA4ytvauM/mB2afN8QXcHIO8dl1/pJwk/eAyA7EZ/QQ1zORh1ssG6g/x/q2/AQCbxkH3k78legvZ3x9pX0QD3G30DWrIB94oZANLDTL65E9eHOwbcZAMa6RugtwShPFi9HEFXefCvxch2cFCuaSd3Q7RBdqmvoMJs9NFcAnUQOscuCH95sgCkmP2yto5RLHOywNYKQr00BAKSBU1uKskQgPhu6iBoYWvvtilNpa6pl4b6GxHSKo9T8VxfSQSsZPfPaYXUBCCDDnT1NyJsxeyuZ0ojDM9uOKqhdD82neEdAa6PlDEBGXQMDXJs/9iKUbhxo+Iwcs6DGP5u4bUXox0DxBi0QaY+BwBw4QAsKmxJDm+d3xXZ4OyKqRmC9nZzDNjNwWmnQwYd7eNYcSFRpGV8mvQCkJKOY1j/xgyuUiWwwJcF57WWAvBLdgzw1Yh653J6DleyCi6lKbiU6nlBGoC6Vtrhwqt+rBhp+tfyrEwJ7Wu5VV/3YVLI1p5RPEwQ8YD6YYJHDh47lSrhWSHVfpqhL8bAM6/KxXDnYZ+ACyv1OEWeo2+NFZeViK2TiZbhAON1v4fjFEAdbZBBpzLP8//gWaNQ3aj4mQAAAABJRU5ErkJggg==",
+      },
+      {
+        name: "Node.js",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFDElEQVR4AaXUA6wsXRbF8f9e+1T3M8a2PRMnY9u2bdvh2LatYKxgbHvu430v1+yurnP2V5X7zP5er+S3yj4pcYF58Tcee8+Xfv1J/3nu5x77z8d/6KF3bnEhNO6OL//Bo73Fi775iOu+9FuP/VPy9C0zrrGpX127n9J3elX1217l12yxY9Pm1GIcGnfHtQOemzo+VlXV32W6ERAcyabNvRIlbi6lfyfzDzYlNy3GoXF28suuvaC6zChL9lgDIACMI+kll7tRSglMTzJZLbdntTivc268/PLtqysMDkt6sxkiOGMC6Pd7lFwsRyHCKrB3ynTAzG7d4mx04kK50rS3yJeduTqXX/ipJ/3AjEsDwXniEsmdyIWNmyACLu+mn0j6IcSVW/R6lbc4Sl3tOTRnLfb/tp8pek+q+K+JWwGFjRjnSwTtuckREKWbWpSgRBRht0sp7UnJ31ZKzi0grIW6utaVLxPej/te4RbD2sTTT3hiMWYCwIzkTs5BlEKOoESoBYUw9FyT1j3pHiaihbraPzOzPUb6Ur2sygSAcSEJcBclglLKkSnktiLCSkAy3/Snqakvf/+vv9/883/+3dQWkW1TT96s7OuBBZNGshPeQiEK5AgEHF5cYHF11S69eVefMFNbuHt4UtBUDGYrzJkoZkYhKCUgygnzwZ6Zw0gqa/UggBBA5enIKDbWp/tQgGCyBDS5UErQMRPTCwuMRiMqE47RUVdmIDnuwoqzdriHeTBpcsnkHJTINLnhwMI8pgQYwo5Mu5Lh3hGeRD3Xo4yMSdPkTFMKhHF4aYEcGTMDEzmMwFBXKQnJsCM3InOGsz006VswGNRD6iazuLZCksCgIxcmQ10FILFxcbUSNEsVzVCYTXR9mmiYW1kEcyTHMXTCdnUlceRuQILkYtDU/PMfs3Tzk8WoI9OXcBPyhJQ25uWoKyxAHcNaEkwvz7AwV7OwMEQyJkkQjCJTuajM8JZMOEJdkQpSgAVyY251hUE9IiVjz/8XkYwgJngHxrAZITNcRnLRT06VhLoqyq2CPAhrODA3S5IwMxaXhszOruESkyQiWBvVVJ5IZhjgBuoqR6FRA1Vh/+z8xr+bjaQk/vPfeSJi4r/j+mhIUwquRPKEW0Jd1RqQbcTyYJ2Z+eXTnnZ9fcSBQ8u424Q3AcvDNZI7ddMgqSPW88ByGtnBQ4voDK+6qsTU3jlyDjAmGguj3HRvwq6w/VIkc9RVunRdz82v9tdXM2Zn+n7QNIU9++dx18SfYnGwWi2OVpq59UXU1exvqsX5/fmxcs6a5GLqwBzDusHMJr2JRx9anl+tSw61xcpyY2WoT970Zf8TxmdOfHhOjMG/pg5f3LcQHInMPtUyIj7b5MZaqCttytHiD2+8hmjskebcAPgzYCeexCWmZ5dZHdQX58Jm8Cc3v55benTdNN6ilIgW6uqohia3GNX5b03ON0bcF1g/4UZwGf+Ymh7nF23AALjvlqp/k91btv2jxRV2Xiq3OEpdnc1ltuz+xmW27d6C8YYTvh9zSyvMLa5iGOfIG3qpt3nHpq3faHE26up8rnXJK72aS416GF8DSO78fc8BJOPEx4UgIr661Kz11m346hbno3F2+vfKlLG/nxno/njcAmPP2nDI9PwCkgAoEXtaN3fZA3b6ltxiHBpnpxvsukbc4KpXLmzNhvE7PK4qt0f85+D0qESpcykPN3HVque/D8LaaWkxjosAqoYXqu5e6SUAAAAASUVORK5CYII=",
+      },
+      {
+        name: "Express.js",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEX////q6uqgoaEZGhtzc3SSk5Ourq5hYmLHx8f09PVOTk+7u7vf39+DhITT09M3ODgiPZ4kAAAAxElEQVR4Ac2OMQgBARSGv6sDQfbSKaWsHsgV6vZS9lK3F9lL2ctsvcmm7GWfyF5XNhvTbef+yT7x1ft7/f3/6/HHOC3r1gnmQLhGamYjDj5U7ALk7UbD4tp4T2EA4EnDFeGMxQygdQWqEwp+OQsBkXrlAU76nAA4Y2mlB2drotVMDMHN5mtMwbMYVeQjNsEKkaJcm3wv10fcl4Dr8zgSnQB2L/RYKdrKA3LW0etun6yFCMwsyTK6qzrFu733xbQOeAk/4gMf6S1GJRc9sQAAAABJRU5ErkJggg==",
       },
     ],
   },
@@ -115,7 +134,16 @@ export const experiences = [
     company: "Ethnus",
     date: "September 2023 - Present",
     desc: "Developing my skills in MERN (MongoDB, Express, React, Node.js) full-stack development",
-    skills: ["HTML", "CSS", "Bootstrap", "JavaScript", "ReactJS"],
+    skills: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "ReactJS",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+    ],
   },
   {
     id: 1,
@@ -131,6 +159,18 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
+    title: "DOER",
+    date: "Oct 2023 - Nov 2023",
+    description:
+      "Revolutionizing task management with an intuitive interface, robust backend, and a visually pleasing experience, crafted to empower users in achieving their goals.",
+    image:
+      "https://private-user-images.githubusercontent.com/103128269/291892119-96b98823-f6dd-4130-b93f-3a423518fac2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNzU5NzEsIm5iZiI6MTcwMzA3NTY3MSwicGF0aCI6Ii8xMDMxMjgyNjkvMjkxODkyMTE5LTk2Yjk4ODIzLWY2ZGQtNDEzMC1iOTNmLTNhNDIzNTE4ZmFjMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMjM0MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zMTRlMjU0MzRmY2UwYzE3MzAxYjAwNjhjODFjNjNkZjdhMmQ0Y2FjMzljY2NkOThiMTNhZTBhZTRjNzhhOTQ5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.udSivHf2ON_hfQn5g1FVie6S2iqz_3LJDoIaCP655QM",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+    github: "https://github.com/SaumyaaPrajapat/Doer",
+    webapp: "https://doerfront.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Calculator",
     date: "Oct 2023",
     description:
@@ -142,7 +182,7 @@ export const projects = [
     webapp: "https://calculator-app-mauve-iota.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Age Calculator",
     date: "Oct 2023",
     description:
@@ -155,7 +195,7 @@ export const projects = [
     webapp: "https://age-calculator-sp1.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Word-Counter",
     date: "Oct 2023",
     description:
@@ -167,7 +207,7 @@ export const projects = [
     webapp: "https://word-counter-neon.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Password Generator",
     date: "Jul 2023",
     description:

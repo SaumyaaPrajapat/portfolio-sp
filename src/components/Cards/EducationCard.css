@@ -1,0 +1,124 @@
+.EduCard {
+  width: 650px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 12px 16px;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: 0.3s;
+  border: 0.1px solid #306ee8;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+
+.EduCard:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .EduCard {
+    padding: 10px;
+    gap: 8px;
+    width: 300px;
+  }
+}
+
+.EduCard:hover .EduSpan {
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+
+.EduTop {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+
+.EduImage {
+  height: 50px;
+  background-color: #000;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+@media (max-width: 768px) {
+  .EduImage {
+    height: 40px;
+  }
+}
+
+.Body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Name {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(242, 243, 244, 0.99);
+}
+@media (max-width: 768px) {
+  .Name {
+    font-size: 14px;
+  }
+}
+
+.Degree {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(242, 243, 244, 0.99);
+}
+@media (max-width: 768px) {
+  .Degree {
+    font-size: 12px;
+  }
+}
+
+.Date {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(242, 243, 244, 0.8);
+}
+@media (max-width: 768px) {
+  .Date {
+    font-size: 10px;
+  }
+}
+
+.Grade {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(242, 243, 244, 0.99);
+}
+@media only screen and (max-width: 768px) {
+  .Grade {
+    font-size: 12px;
+  }
+}
+
+.EduDescription {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(197, 195, 195, 0.99);
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .EduDescription {
+    font-size: 12px;
+  }
+}
+
+.EduSpan {
+  overflow: hidden;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}

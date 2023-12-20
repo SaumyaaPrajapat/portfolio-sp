@@ -1,0 +1,7 @@
+{experience.doc && (
+        <a href={experience.doc} target="new">
+          <img className="Document" src={experience.doc} />
+        </a>
+      )}
+
+for adding certificate of experience

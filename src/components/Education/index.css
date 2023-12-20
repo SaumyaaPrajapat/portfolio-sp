@@ -1,0 +1,71 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  padding: 70px 30px;
+}
+@media (max-width: 768px) {
+  .Container {
+    padding: 46px 16px;
+  }
+}
+
+.Wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  gap: 12px;
+}
+@media (max-width: 960px) {
+  .Wrapper {
+    flex-direction: column;
+  }
+}
+
+.Title {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #f2f3f4;
+}
+@media (max-width: 768px) {
+  .Title {
+    margin-top: 12px;
+    font-size: 32px;
+  }
+}
+
+.Desc {
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+  color: #b1b2b3;
+}
+@media (max-width: 768px) {
+  .Desc {
+    font-size: 16px;
+  }
+}
+
+.TimelineSection {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.TimelineContent {
+  padding: 12px 2px;
+}
