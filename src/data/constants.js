@@ -5,7 +5,7 @@ export const Bio = {
     "I am a highly motivated and results-oriented full-stack developer and UI/UX designer with a passion for creating user-friendly and visually appealing digital experiences. Passionate about learning, I am committed to delivering high quality results.",
   github: "https://github.com/SaumyaaPrajapat",
   resume:
-    "https://drive.google.com/file/d/1q3ekTmjctxhkSlSo4Vm-_25h0ulXhNKX/view?usp=sharing",
+    "https://drive.google.com/file/d/1-ON98CMHbrTItBPaNIyAGEfYBKOSjpuI/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/saumyaa-prajapat-42880b226/",
 };
 
@@ -65,7 +65,7 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABZElEQVR4Ae2URVYEQRBEe4dcAIer1H5ki6xquAC2H70Hegq09uhR6jFLLOnASaT8jeZ7MT4dvzIzOhuWqXRxVrRLc6pdnte5iIs2V3/XVkXRupRB5rfF2Ro3NAMwrcu638lLcxIGngAcQjgDoO3RADYqyh0ABvEAtPv8sXSRAKCOjgCJ8IpfxCWUnjGc71AMeRxLC8oRQKPttIX4BdbBEolcam+F9P4yEdf77yaP78XUyZOaPnnSuQivJ48eZJD53hLVuCFXBvPTxxpMf9Xxvd8IdpZImswhnJKbck0ek/BpvbIBQKtNAPiNM4CFOQQDG2lnACydJYC2gXAH6PAIsITCBgDxMwF4x/GgUzHkceTj4AAonPLLODReoztZaI3etMTYTUuN37R0LuLK0hXMmzVuyJXSXMKgYwBoe0cBmFFHAHTXjwC/SbeEF3VhAsCidiiGMG/wO1y6OH4Zh8Zr3JyySPUMD+KthXmsO0kAAAAASUVORK5CYII=",
       },
       {
         name: "Canva",
@@ -129,7 +129,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQFuKxDjyyz-cQ/company-logo_100_100/0/1685947586492?e=1704931200&v=beta&t=_Co9rmVJz8f95ZbH500IU-N1wG5sC0K_p2uV0bhyH4g",
+    img: "https://media.licdn.com/dms/image/D560BAQFuKxDjyyz-cQ/company-logo_200_200/0/1685947587616/ethnus_logo?e=1713398400&v=beta&t=Nu1ajKQkNYr2HMIpwB_8Xbo8tcFth3PyB_7rcmRu3wU",
     role: "Industrial Internship (MERN Full Stack)",
     company: "Ethnus",
     date: "September 2023 - Present",
@@ -144,16 +144,17 @@ export const experiences = [
       "Node.js",
       "Express.js",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQGeqZzup8izfA/profile-treasury-image-shrink_800_800/0/1702548766332?e=1703689200&v=beta&t=D-eVKH16Un7W4YcTkWgbl3nw_6MQiMp3M6j_H8w29SU",
+    doc: "https://media.licdn.com/dms/image/D4D22AQEDDfze8Jga1w/feedshare-shrink_800/0/1702472999991?e=1708560000&v=beta&t=gWCyXLXHQBvkOleoMAXosMURtSMR4Z6gbZCi-MQHEp0",
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4D0BAQHkv2aERJCnIw/company-logo_200_200/0/1594916660661?e=1704931200&v=beta&t=MbukTpoEOv_gUdNTyXc6zSjnsihgh_0DdDWY3P-aISA",
+    img: "https://media.licdn.com/dms/image/C510BAQHQCh6ucnJcNA/company-logo_200_200/0/1630601762828/smartbridge_educational_services_pvt_ltd_logo?e=1713398400&v=beta&t=mC-6StQPG0q1INEdyrduMGjbFmyDGoWp-EoLMCMU7yo",
     role: "Industrial Internship (AI for Cyber Security With IBM Qradar)",
     company: "Smartbridge Educational Services Pvt Ltd",
     date: "August 2023 - Present",
     desc: "Learning about different types of tools and technologies in cybersecurity along with AI",
     skills: ["Kali Linux", "Metasploit", "Qradar"],
+    doc: "https://media.licdn.com/dms/image/D5622AQF6B30q5Xfsig/feedshare-shrink_2048_1536/0/1703944463592?e=1708560000&v=beta&t=x8zGugG1ryWP9dD_X_qmg6a1BsZgzxF3ZvhBkVrXirw",
   },
 ];
 
@@ -165,13 +166,25 @@ export const projects = [
     description:
       "Revolutionizing task management with an intuitive interface, robust backend, and a visually pleasing experience, crafted to empower users in achieving their goals.",
     image:
-      "https://private-user-images.githubusercontent.com/103128269/291902753-64347fb6-9ce0-4766-b69c-0b1b1cbe6b0d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNzg1OTQsIm5iZiI6MTcwMzA3ODI5NCwicGF0aCI6Ii8xMDMxMjgyNjkvMjkxOTAyNzUzLTY0MzQ3ZmI2LTljZTAtNDc2Ni1iNjljLTBiMWIxY2JlNmIwZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMzE4MTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MTgzMDY5OTIwOWY4OGQzNGE3ZjNmYmY1NjIxYWZjMTZiNmU4YmZkMGIyNTE4ODQwMzk1MDIyOGU5MDhkY2JkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.9kOn6IUf2taefq1kUS6k-WHiSsYitT4rz3c9tIkZ7Gs",
+      "https://user-images.githubusercontent.com/103128269/296996814-91d5bd71-dc48-4c71-a254-9a83e1360d74.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDUzOTc2NzAsIm5iZiI6MTcwNTM5NzM3MCwicGF0aCI6Ii8xMDMxMjgyNjkvMjk2OTk2ODE0LTkxZDViZDcxLWRjNDgtNGM3MS1hMjU0LTlhODNlMTM2MGQ3NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExNlQwOTI5MzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YzY2MjExOGFiMmNmZTY5ZGQ2MzY4ODcyYzAyOTkxOGQxNTE1NmVkNzA0MTRkMzczODI3ZTgzMGM1NzYyZGFlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.wlIuQtITxFMYskNAqO5ZeO7JqiQXauTuuyKssVlbTfY",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     github: "https://github.com/SaumyaaPrajapat/Doer",
     webapp: "https://doerfront.vercel.app/",
   },
   {
     id: 1,
+    title: "Hub4",
+    date: "Nov 2023 - Dec 2023",
+    description:
+      "Engineered a centralized dashboard for effortless administration, featuring streamlined salary tracking and comprehensive employee database management.",
+    image:
+      "https://user-images.githubusercontent.com/103128269/297000280-af141195-fc87-41e2-963d-6f73ad652206.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDUzOTg0NTksIm5iZiI6MTcwNTM5ODE1OSwicGF0aCI6Ii8xMDMxMjgyNjkvMjk3MDAwMjgwLWFmMTQxMTk1LWZjODctNDFlMi05NjNkLTZmNzNhZDY1MjIwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExNlQwOTQyMzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMWIxOGRkMmY3MjY5Y2Q1YzUzNGYwMjhmYjBiOTQyY2Q5NDRlZTA4NTU4MWVlZTk2ZWJiZGIxODRiZjUwNWM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iQFxKCp-3n67jZGZuIHV9jFeqPXp7xi6jq78ZeL9IqU",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+    github: "https://github.com/SaumyaaPrajapat/Hub-4",
+    webapp: "https://hub-4frontend.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Calculator",
     date: "Oct 2023",
     description:
@@ -183,7 +196,7 @@ export const projects = [
     webapp: "https://calculator-app-mauve-iota.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Age Calculator",
     date: "Oct 2023",
     description:
@@ -196,7 +209,7 @@ export const projects = [
     webapp: "https://age-calculator-sp1.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Word-Counter",
     date: "Oct 2023",
     description:
@@ -208,7 +221,7 @@ export const projects = [
     webapp: "https://word-counter-neon.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Password Generator",
     date: "Jul 2023",
     description:
@@ -224,7 +237,7 @@ export const projects = [
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4D0BAQGgTYgPZiPkaA/company-logo_100_100/0/1519933404766?e=1704931200&v=beta&t=8YbGWDh2r1K0XyZPH4Ug7cOCVPMV_t452Bh4AkxmBfU",
+    img: "https://media.licdn.com/dms/image/C4D0BAQGgTYgPZiPkaA/company-logo_200_200/0/1631346260383?e=1713398400&v=beta&t=t1LKk3MixaJ8WFLDxUJmhmOMBBJV2jmB1kGRJkq1xS4",
     school: "Vellore Institute of Technology, Vellore Campus, Tamil Nadu",
     date: "Oct 2021 - Sep 2025",
     grade: "9.16 CGPA",
@@ -234,7 +247,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4E0BAQGL2-_lenwjCQ/company-logo_100_100/0/1608822874081?e=1704931200&v=beta&t=izVpUdu0FBBM7KgMAvHmnseAbhM8hRetrL7a5vm3ZkI",
+    img: "https://media.licdn.com/dms/image/C4E0BAQFDeCK813NoIA/company-logo_200_200/0/1630626076620/atomic_energy_central_school_aecs_indore_logo?e=1713398400&v=beta&t=-45Js5MegZ5x_OduYsH3L51wwJW7hthF5bDRDBSf2H8",
     school: "Atomic Energy Central School No: 4, Mumbai",
     date: "Apr 2019 - Apr 2021",
     grade: "94%",
@@ -243,7 +256,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/C4E0BAQGL2-_lenwjCQ/company-logo_100_100/0/1608822874081?e=1704931200&v=beta&t=izVpUdu0FBBM7KgMAvHmnseAbhM8hRetrL7a5vm3ZkI",
+    img: "https://media.licdn.com/dms/image/C4E0BAQFDeCK813NoIA/company-logo_200_200/0/1630626076620/atomic_energy_central_school_aecs_indore_logo?e=1713398400&v=beta&t=-45Js5MegZ5x_OduYsH3L51wwJW7hthF5bDRDBSf2H8",
     school: "Atomic Energy Central School No: 4, Mumbai",
     date: "Apr 2017 - Apr 2019",
     grade: "96%",
