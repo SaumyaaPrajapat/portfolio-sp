@@ -129,10 +129,20 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/C560BAQHR_NO4y4im1w/company-logo_100_100/0/1631305477716?e=1714608000&v=beta&t=h01OQ2uL4yN1NBZhDCF1W51fotOP7AMCJo0VaS1UuQ0",
+    role: "Pratham Software (PSI)",
+    company: "Intern",
+    date: "Nov 2023 - Dec 2023",
+    desc: "Created Hub4, a MERN employment and salary app. Enhanced project management and troubleshooting skills with mentor guidance.",
+    skills: ["ReactJS", "MongoDB", "Node.js", "Express.js"],
+    doc: "https://media.licdn.com/dms/image/D4D2DAQGeLz2U78hUaA/profile-treasury-image-shrink_1280_1280/0/1706639593962?e=1707246000&v=beta&t=kUjm2yXG79BhqQxG1RN81dEJ0qbcAbCj6UL6Pq9925Q",
+  },
+  {
+    id: 1,
     img: "https://media.licdn.com/dms/image/D560BAQFuKxDjyyz-cQ/company-logo_200_200/0/1685947587616/ethnus_logo?e=1713398400&v=beta&t=Nu1ajKQkNYr2HMIpwB_8Xbo8tcFth3PyB_7rcmRu3wU",
     role: "Industrial Internship (MERN Full Stack)",
     company: "Ethnus",
-    date: "September 2023 - Present",
+    date: "Sep 2023 - Nov 2023",
     desc: "Developing my skills in MERN (MongoDB, Express, React, Node.js) full-stack development",
     skills: [
       "HTML",
@@ -147,12 +157,12 @@ export const experiences = [
     doc: "https://media.licdn.com/dms/image/D4D22AQEDDfze8Jga1w/feedshare-shrink_800/0/1702472999991?e=1708560000&v=beta&t=gWCyXLXHQBvkOleoMAXosMURtSMR4Z6gbZCi-MQHEp0",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://media.licdn.com/dms/image/C510BAQHQCh6ucnJcNA/company-logo_200_200/0/1630601762828/smartbridge_educational_services_pvt_ltd_logo?e=1713398400&v=beta&t=mC-6StQPG0q1INEdyrduMGjbFmyDGoWp-EoLMCMU7yo",
     role: "Industrial Internship (AI for Cyber Security With IBM Qradar)",
     company: "Smartbridge Educational Services Pvt Ltd",
-    date: "August 2023 - Present",
-    desc: "Learning about different types of tools and technologies in cybersecurity along with AI",
+    date: "Aug 2023 - Nov 2023",
+    desc: "Learning about different types of tools and technologies in cybersecurity along with AI.",
     skills: ["Kali Linux", "Metasploit", "Qradar"],
     doc: "https://media.licdn.com/dms/image/D5622AQF6B30q5Xfsig/feedshare-shrink_2048_1536/0/1703944463592?e=1708560000&v=beta&t=x8zGugG1ryWP9dD_X_qmg6a1BsZgzxF3ZvhBkVrXirw",
   },

@@ -25,7 +25,11 @@ const Hero = () => {
             </span>
           </div>
           <div className="SubTitle">{Bio.description}</div>
-          <a className="ResumeButton" href={Bio.resume} target="display">
+          <a
+            className="ResumeButton"
+            href="https://drive.google.com/uc?export=download&id=1-ON98CMHbrTItBPaNIyAGEfYBKOSjpuI"
+            download="YourResumeFileName.pdf"
+          >
             Resume
           </a>
         </div>
