@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="SubTitle">{Bio.description}</div>
         <a
             className="ResumeButton"
-            href="https://drive.google.com/uc?export=download&id=/1nBnKDixpv-WqOk8t72sDnfZD5__vnBi-"
+            href="https://drive.google.com/uc?export=download&id=1nBnKDixpv-WqOk8t72sDnfZD5__vnBi-"
             download="YourResumeFileName.pdf"
           >
             Resume
