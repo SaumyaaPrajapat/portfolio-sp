@@ -5,7 +5,7 @@ export const Bio = {
     "I am a highly motivated and results-oriented full-stack developer and UI/UX designer with a passion for creating user-friendly and visually appealing digital experiences. Passionate about learning, I am committed to delivering high quality results.",
   github: "https://github.com/SaumyaaPrajapat",
   resume:
-    "https://drive.google.com/file/d/1nBnKDixpv-WqOk8t72sDnfZD5__vnBi-/view?usp=sharing"
+    "https://drive.google.com/file/d/1nBnKDixpv-WqOk8t72sDnfZD5__vnBi-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/saumyaa-prajapat-42880b226/",
 };
 
