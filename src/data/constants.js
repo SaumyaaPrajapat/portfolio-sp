@@ -129,17 +129,17 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQHR_NO4y4im1w/company-logo_100_100/0/1631305477716?e=1714608000&v=beta&t=h01OQ2uL4yN1NBZhDCF1W51fotOP7AMCJo0VaS1UuQ0",
+    img: "https://media.licdn.com/dms/image/C560BAQHWI-d3iklgNA/company-logo_200_200/0/1630663363128?e=1727913600&v=beta&t=tz8tMtqy3NoKyFnIZZpE8PwsrdHJ64uqk3zdoKXNEwk",
     role: "Pratham Software (PSI)",
     company: "Intern",
     date: "Nov 2023 - Dec 2023",
     desc: "Created Hub4, a MERN employment and salary app. Enhanced project management and troubleshooting skills with mentor guidance.",
     skills: ["ReactJS", "MongoDB", "Node.js", "Express.js"],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQGeLz2U78hUaA/profile-treasury-image-shrink_1280_1280/0/1706639593962?e=1707246000&v=beta&t=kUjm2yXG79BhqQxG1RN81dEJ0qbcAbCj6UL6Pq9925Q",
+    doc: "https://media.licdn.com/dms/image/D4D2DAQGeLz2U78hUaA/profile-treasury-image-shrink_1280_1280/0/1706639593962?e=1720720800&v=beta&t=QwTK4Ofp2ArvPxdd18p2AABKBQS6-TpEPgF6gEnmUMw",
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/D560BAQFuKxDjyyz-cQ/company-logo_200_200/0/1685947587616/ethnus_logo?e=1713398400&v=beta&t=Nu1ajKQkNYr2HMIpwB_8Xbo8tcFth3PyB_7rcmRu3wU",
+    img: "https://media.licdn.com/dms/image/D560BAQFuKxDjyyz-cQ/company-logo_200_200/0/1685947587616/ethnus_logo?e=1727913600&v=beta&t=VPa0RI2IxiIBr_I1_Y87Va__WS9mr3dxFm21ckOZgms",
     role: "Industrial Internship (MERN Full Stack)",
     company: "Ethnus",
     date: "Sep 2023 - Nov 2023",
@@ -154,23 +154,35 @@ export const experiences = [
       "Node.js",
       "Express.js",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D22AQEDDfze8Jga1w/feedshare-shrink_800/0/1702472999991?e=1708560000&v=beta&t=gWCyXLXHQBvkOleoMAXosMURtSMR4Z6gbZCi-MQHEp0",
+    doc: "https://media.licdn.com/dms/image/D4D2DAQGeqZzup8izfA/profile-treasury-image-shrink_800_800/0/1702548766332?e=1720720800&v=beta&t=TqccRCVeJMq6yb7QwF5uFVKTBTVLxT7dOObqeW1V3C0",
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/C510BAQHQCh6ucnJcNA/company-logo_200_200/0/1630601762828/smartbridge_educational_services_pvt_ltd_logo?e=1713398400&v=beta&t=mC-6StQPG0q1INEdyrduMGjbFmyDGoWp-EoLMCMU7yo",
+    img: "https://media.licdn.com/dms/image/C510BAQHQCh6ucnJcNA/company-logo_200_200/0/1630601762828/smartbridge_educational_services_pvt_ltd_logo?e=1728518400&v=beta&t=e4Uszr5D34VQRJaWAMxt0VP4s9dsY51VDRYdLt7eoZY",
     role: "Industrial Internship (AI for Cyber Security With IBM Qradar)",
     company: "Smartbridge Educational Services Pvt Ltd",
     date: "Aug 2023 - Nov 2023",
     desc: "Learning about different types of tools and technologies in cybersecurity along with AI.",
     skills: ["Kali Linux", "Metasploit", "Qradar"],
-    doc: "https://media.licdn.com/dms/image/D5622AQF6B30q5Xfsig/feedshare-shrink_2048_1536/0/1703944463592?e=1708560000&v=beta&t=x8zGugG1ryWP9dD_X_qmg6a1BsZgzxF3ZvhBkVrXirw",
+    doc: "https://media.licdn.com/dms/image/D562DAQGzUkjk1-re9A/profile-treasury-image-shrink_800_800/0/1703657687010?e=1720767600&v=beta&t=lFCEDsuDtv6NT0qaXKnlF9DBppAMT2t04SDT3qQe2kM",
   },
 ];
 
 export const projects = [
   {
     id: 0,
+    title: "Campus Connect",
+    date: "Jan 2024 - Mar 2024",
+    description:
+      "Created a dashboard offering real-time insights into class organization, attendance, and academic performance, enhancing operational efficiency.",
+    image:
+      "https://private-user-images.githubusercontent.com/103128269/346007832-6c99d8ed-922d-4f67-b0c3-e56904bbb647.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAxNTY1NzUsIm5iZiI6MTcyMDE1NjI3NSwicGF0aCI6Ii8xMDMxMjgyNjkvMzQ2MDA3ODMyLTZjOTlkOGVkLTkyMmQtNGY2Ny1iMGMzLWU1NjkwNGJiYjY0Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwNVQwNTExMTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zZjNiMDkyNWFmZmE4NTJlZmNiMTAzZjkyN2EzYmFmODljYTk2NWQ3M2I2ZTNhOTEyY2E2ZDI4NjI4NTMwYTA3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mWNj75e0ghLMt7ef_KSq5PQrwAQji3kkqozATFhWL0s",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+    github: "https://github.com/SaumyaaPrajapat/Campus_Connect",
+    webapp: "https://campus-connect-front-sa.vercel.app/",
+  },
+  {
+    id: 1,
     title: "DOER",
     date: "Oct 2023 - Nov 2023",
     description:
@@ -182,7 +194,7 @@ export const projects = [
     webapp: "https://doerfront.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Hub4",
     date: "Nov 2023 - Dec 2023",
     description:
@@ -194,7 +206,7 @@ export const projects = [
     webapp: "https://hub-4frontend.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Calculator",
     date: "Oct 2023",
     description:
@@ -206,7 +218,7 @@ export const projects = [
     webapp: "https://calculator-app-mauve-iota.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Age Calculator",
     date: "Oct 2023",
     description:
@@ -219,7 +231,7 @@ export const projects = [
     webapp: "https://age-calculator-sp1.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Word-Counter",
     date: "Oct 2023",
     description:
@@ -231,7 +243,7 @@ export const projects = [
     webapp: "https://word-counter-neon.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Password Generator",
     date: "Jul 2023",
     description:
@@ -247,7 +259,7 @@ export const projects = [
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4D0BAQGgTYgPZiPkaA/company-logo_200_200/0/1631346260383?e=1713398400&v=beta&t=t1LKk3MixaJ8WFLDxUJmhmOMBBJV2jmB1kGRJkq1xS4",
+    img: "https://media.licdn.com/dms/image/C4D0BAQGgTYgPZiPkaA/company-logo_200_200/0/1631346260383?e=1728518400&v=beta&t=u_rNaKaD8RLqZOFZKown0KkV0d9akNw8y3p6P9unKcU",
     school: "Vellore Institute of Technology, Vellore Campus, Tamil Nadu",
     date: "Oct 2021 - Sep 2025",
     grade: "9.16 CGPA",
@@ -257,7 +269,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4E0BAQFDeCK813NoIA/company-logo_200_200/0/1630626076620/atomic_energy_central_school_aecs_indore_logo?e=1713398400&v=beta&t=-45Js5MegZ5x_OduYsH3L51wwJW7hthF5bDRDBSf2H8",
+    img: "https://media.licdn.com/dms/image/C510BAQHx4KhJr68MuA/company-logo_200_200/0/1631352700818?e=1728518400&v=beta&t=DobE4QMPn3QSIOnya23u3jrBQLx4rDFwKkI4Oes6LJE",
     school: "Atomic Energy Central School No: 4, Mumbai",
     date: "Apr 2019 - Apr 2021",
     grade: "94%",
@@ -266,7 +278,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/C4E0BAQFDeCK813NoIA/company-logo_200_200/0/1630626076620/atomic_energy_central_school_aecs_indore_logo?e=1713398400&v=beta&t=-45Js5MegZ5x_OduYsH3L51wwJW7hthF5bDRDBSf2H8",
+    img: "https://media.licdn.com/dms/image/C510BAQHx4KhJr68MuA/company-logo_200_200/0/1631352700818?e=1728518400&v=beta&t=DobE4QMPn3QSIOnya23u3jrBQLx4rDFwKkI4Oes6LJE",
     school: "Atomic Energy Central School No: 4, Mumbai",
     date: "Apr 2017 - Apr 2019",
     grade: "96%",
